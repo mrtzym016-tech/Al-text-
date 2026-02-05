@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Human Content Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🧠 مختبر المحتوى البشري</h1>
+<p>نصوص عربية كأن كاتبها إنسان محترف</p>
+
+<select id="tool">
+  <option value="video">🎬 سكربت فيديو</option>
+  <option value="whatsapp">💬 رسالة واتساب</option>
+  <option value="product">🛒 وصف منتج</option>
+  <option value="reply">📩 ردود عملاء</option>
+</select>
+
+<input id="topic" placeholder="اكتب العنوان أو الفكرة">
+
+<select id="tone">
+  <option value="professional">احترافي</option>
+  <option value="story">قصصي</option>
+  <option value="emotional">عاطفي</option>
+</select>
+
+<select id="dialect">
+  <option value="fusha">فصحى</option>
+  <option value="iraqi">عراقي</option>
+  <option value="saudi">سعودي</option>
+  <option value="egypt">مصري</option>
+  <option value="maghreb">مغاربي</option>
+</select>
+
+<select id="length">
+  <option value="short">قصير</option>
+  <option value="medium">متوسط</option>
+  <option value="long">طويل</option>
+</select>
+
+<button onclick="generate()">توليد النص</button>
+
+<pre id="result"></pre>
+
+<p>
+  🔒 النسخة المجانية محدودة  
+  <a href="pricing.html">الترقية الآن</a>
+</p>
+
+<script src="main.js"></script>
+</body>
+</html>
