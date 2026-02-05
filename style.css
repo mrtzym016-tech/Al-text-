@@ -1,0 +1,32 @@
+body {
+  font-family: Tahoma;
+  background: #0f0f0f;
+  color: #fff;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  color: #00c896;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+button {
+  background: #00c896;
+  border: none;
+  cursor: pointer;
+}
+
+pre {
+  background: #1a1a1a;
+  padding: 15px;
+  white-space: pre-wrap;
+  margin-top: 15px;
+}
